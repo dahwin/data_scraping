@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+
+    <title>JYP Entertainment</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <!-- Reaction type (w3c warning) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- //Reaction type (w3c warning) -->
+    <!-- Open Graph -->
+    <meta property="og:title" content="JYP Entertainment" />
+    <meta property="og:image" content="https://jyplevel2storage01.blob.core.windows.net/system/og_JYP.png" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="400" />
+    <meta property="og:description" content="JYP 엔터테인먼트" />
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="/Content/css/swiper-bundle.min.css" />
+    <!-- //swiper css -->
+    <link href="/Content/css/common.css?ver=221018" rel="stylesheet" type="text/css" media="screen" />
+    <script src="/Content/js/jquery.js"></script>
+    <script src="/Content/js/jquery-1.12.1.js"></script>
+    <!-- swiper js -->
+    <script src="/Content/js/swiper-bundle.min.js"></script>
+    <!-- //swiper js -->
+    <script src="/Content/js/jslib.js?ver=2210152"></script>
+    <script src="/Content/js/common.js?ver=221019"></script>
+
+    <script type="text/javascript" src="/Content/jQuery/json3.min.js"></script>
+    <script type="text/javascript" src="/Content/common/library.js"></script>
+
+
+    <script src="/Content/js/youtube-banner.es.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-46828308-16"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-46828308-16');
+    </script>
+
+    <script>
+        $(function() {
+            $(".wrap_comm").addClass("main");
+            JSLIB.mainBannerSize("size");
+
+            $(".up_ico").click(function() {
+                JSLIB.scrollCont("scdown");
+            });
+
+            // 20221026 modify
+            $("#mainBanner").scroll(function() {
+                if (!$(".wrap_comm").hasClass("menu_show")) {
+                    JSLIB.scrollCont("scstart");
+                }
+            })
+
+            $(".mb_info_cont").scroll(function() {
+                if (!$(".wrap_comm").hasClass("menu_show")) {
+                    JSLIB.scrollHeader();
+                }
+            });
+
+            $(window).resize(function() {
+                JSLIB.mainResizeCont();
+
+                setTimeout(function() {
+                    JSLIB.mainBannerSize("size");
+                }, 200);
+            });
+        });
+    </script>
+
+
+</head>
+
+<body class="ofs">
+    <!-- wrap -->
+
+    <div id="wrap">
+        <div class="wrap_comm">
+
+
+
+            <script type="text/javascript">
+                function readBannerCount(sq, url) {
+                    JYPE.AjaxP('/ko/Main/updateBannerCount', JSON.stringify({
+                        sq: sq
+                    }), function(r) {
+
+                        window.open(url, '_blank');
+                    });
+                }
+            </script>
+
+            <!-- header -->
+            <div id="header">
+
+                <a href="/" class="jyp_logo">JYP ENTERTAINMENT</a>
+                <div class="header_menu">
+                    <div class="sns_menu">
+                        <ul>
+                            <li><a href="https://www.youtube.com/jypentertainment" target="_blank" class="sns_ico tp1">Youtube</a></li>
+                            <li><a href="https://www.instagram.com/jypentertainment/" target="_blank" class="sns_ico tp2">Instagram</a></li>
+                            <li><a href="https://twitter.com/jypnation" target="_blank" class="sns_ico tp3">Twitter</a></li>
+                            <li><a href="https://www.facebook.com/jypnation" target="_blank" class="sns_ico tp4">Facebook</a></li>
+                        </ul>
+                    </div>
+                    <div class="lang_menu">
+                        <a href="javascript:;" class="lang_type">
+            KO
+            <i class="lang_ico"></i>
+        </a>
+                        <ul>
+                            <li><a href="javascript:goPageLang('en')">EN</a></li>
+                            <li><a href="javascript:goPageLang('zh')" class="active">CH</a></li>
+                            <li><a href="javascript:goPageLang('ja')">JP</a></li>
+                            <li><a href="javascript:goPageLang('es')">ES</a></li>
+                        </ul>
+                    </div>
+                    <a href="javascript:;" class="menu_ico">
+        <span></span>
+        <span></span>
+        <span></span>
+    </a>
+                </div>
+            </div>
+            <!-- //header -->
+            <!-- Content -->
+            <div class="content_wrap main_banner_wrap">
+                <div id="mainBanner" class="swiper main_banner">
+
+
+
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide main_video_wrap">
+                            <div class="main_banner_cont">
+                                <p>ITZY</p>
+                                <strong>Boys Like You</strong>
+                                <span class="mb_line"></span>
+                            </div>
+
+                            <div class="mb_info_wrap tp1">
+                                <div class="mb_info_cont">
+                                    <div class="mb_info_tit">
+                                        <p>ITZY</p>
+                                        <strong>Boys Like You</strong>
+                                    </div>
+                                    <div class="mb_info_img">
+                                        <img src="https://lv2-cdn.azureedge.net/itzy/125f68b2b20a481dbf03ef9d03560295-7ab0dd968f254899b2acc571af10cb43-ITZY---Boys-Like-You-1000.png" alt="main banner info img">
+                                    </div>
+                                    <div class="mb_info_item">
+                                        <div class="album_info">
+                                            <p>Release Date</p>
+                                            <span>2022-10-21</span>
+                                            <span class="date_line"></span>
+                                        </div>
+
+                                        <div class="mb_info_txt">
+                                            - 'K팝 대세 걸그룹' ITZY, 10월 21일 오후 1시 선공개 영어 싱글 'Boys Like You' 정식 발매!
+                                            <br>- 'Boys Like You', 중독성 강한 멜로디 + 하이틴 비주얼! 월드와이드 팬심 사로잡을 新매력!
+                                            <br>- 첫 월드투어
+                                            < CHECKMATE> 일환 미국 8개 도시 공연 개최! 'Boys Like You' 무대 최초 공개!
+                                        </div>
+
+                                        <div class="mb_info_btn">
+                                            <ul>
+                                                <li><a href="https://itzy.jype.com/Default/DiscographyView?AamSeq=182&AmSeq=0&PgIndex=0" target="_blank" class="more_ico">more</a></li>
+                                                <li><a href="https://www.youtube.com/watch?v=6uZy86ePgO0" target="_blank" class="go_ico">youtube link</a></li>
+                                                <li><a href="javascript:;" class="up_ico">close</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="c_line"></span>
+                            </div>
+                            <div class="main_content">
+
+
+                                <a href="javascript:readBannerCount('33', 'https://itzy.jype.com')">
+
+
+
+                                    <!-- img -->
+
+                                    <div class="video">
+                                        <div class="video_frame" data-id="6uZy86ePgO0"></div>
+                                        <!-- <div class="video_frame" data-id=""></div> -->
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide main_video_wrap">
+                            <div class="main_banner_cont">
+                                <p>Stray Kids</p>
+                                <strong>CASE 143</strong>
+                                <span class="mb_line"></span>
+                            </div>
+
+                            <div class="mb_info_wrap tp1">
+                                <div class="mb_info_cont">
+                                    <div class="mb_info_tit">
+                                        <p>Stray Kids</p>
+                                        <strong>MAXIDENT</strong>
+                                    </div>
+                                    <div class="mb_info_img">
+                                        <img src="https://lv2-cdn.azureedge.net/straykids/1738fe0f203641888340b74c310aa04e-dc0a00b099aa488f8ea1cabb4d515124-SKZ-MAXIDENT-OnlineCover_Final.jpg" alt="main banner info img">
+                                    </div>
+                                    <div class="mb_info_item">
+                                        <div class="album_info">
+                                            <p>Release Date</p>
+                                            <span>2022-10-07</span>
+                                            <span class="date_line"></span>
+                                        </div>
+
+                                        <div class="mb_info_txt">
+                                            'K팝 4세대 선두주자' Stray Kids(스트레이 키즈), 10월 7일 새 미니 앨범 'MAXIDENT' 및 타이틀곡 'CASE 143' 발매!
+                                            <br>
+                                            <br>- 美 빌보드 메인 차트 '빌보드 200' 1위 그룹 스트레이 키즈, 약 7개월 만에 화려하게 컴백! 그들에게 닥친 초대형 사건!
+                                            <br>- 새 앨범 'MAXIDENT', 그룹 내 프로듀싱 팀 쓰리라차 필두 멤버 전원 작사-작곡 참여! 개성과 진정성 높인 명반 탄생!
+                                            <br>- "스키즈표 사랑 노래는 다르다" 타이틀곡 'CASE 143', 사건 발생에 비유한 사랑! 다이내믹 사운드 위 강렬 에너지 듬뿍!
+                                            <br>- KSPO DOME 입성과 함께 2회 티켓 솔드아웃! 총 9개 도시 19회 규모 두 번째 월드투어 전 회차 매진 기록 이은 쾌거!
+                                            <br>
+                                            <br>'사건 번호 143'
+                                            <br>: ‘사랑’이라는 대사건에 부딪힌 스트레이 키즈.
+                                        </div>
+
+                                        <div class="mb_info_btn">
+                                            <ul>
+                                                <li><a href="https://straykids.jype.com/Default/DiscographyView?AamSeq=181&AmSeq=0&PgIndex=0" target="_blank" class="more_ico">more</a></li>
+                                                <li><a href="https://www.youtube.com/watch?v=jYSlpC6Ud2A" target="_blank" class="go_ico">youtube link</a></li>
+                                                <li><a href="javascript:;" class="up_ico">close</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="c_line"></span>
+                            </div>
+                            <div class="main_content">
+
+
+                                <a href="javascript:readBannerCount('31', 'https://straykids.jype.com')">
+
+
+
+                                    <!-- img -->
+
+                                    <div class="video">
+                                        <div class="video_frame" data-id="jYSlpC6Ud2A"></div>
+                                        <!-- <div class="video_frame" data-id=""></div> -->
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide main_video_wrap">
+                            <div class="main_banner_cont">
+                                <p>NMIXX</p>
+                                <strong>DICE</strong>
+                                <span class="mb_line"></span>
+                            </div>
+
+                            <div class="mb_info_wrap tp1">
+                                <div class="mb_info_cont">
+                                    <div class="mb_info_tit">
+                                        <p>NMIXX</p>
+                                        <strong>ENTWURF</strong>
+                                    </div>
+                                    <div class="mb_info_img">
+                                        <img src="https://lv2-cdn.azureedge.net/nmixx/f0171a9b614f4e4b9253da3923a741ea-NMIXX_ENTWURF_onlinecover.jpg" alt="main banner info img">
+                                    </div>
+                                    <div class="mb_info_item">
+                                        <div class="album_info">
+                                            <p>Release Date</p>
+                                            <span>2022-09-19</span>
+                                            <span class="date_line"></span>
+                                        </div>
+
+                                        <div class="mb_info_txt">
+                                            게임에 던져진 자: 순응할 것인가, 만들어갈 것인가
+                                            <br>
+                                            <br>자성의 힘에 이끌려 세상의 벽을 뚫고 새로운 세계의 존재를 알게 된 NMIXX. 소녀들은 이제 원하는 대로 상상한 대로 이루어지는 세계를 향해 항해를 시작했다. 하지만 이내 이들의 여정 앞에 생각을 휘젓는 회오리가 등장하고 혼란을 겪는데…
+                                            <br>
+                                            <br>모든 인간은 두려움과 떨림 속에서 살고 있다. 소녀들 스스로가 만들어낸 두려움과 불안은 강력했다. 소녀들의 내면 깊은 곳에서부터 파생된 거대한 그림자와 휘몰아치는 생각의 파도는 NMIXX를 위협한다.
+                                            <br>
+                                            <br>한치 앞을 알 수 없는 게임과도 같은 여정에서 자신만의 세계 ‘MIXX’를 펼쳐 나가게 된 소녀들은 이윽고 깨닫게 된다. 이미 주사위(DICE)는 던져졌고, 운명은 자신이 직접 개척해 나가는 것이라는 것.
+                                            <br>
+                                            <br>‘MIXX’를 확장해 ‘MIXXTOPIA’로 가는 여정에서 겪는 수많은 경험들을 통해 소녀들은 자신의 감정을 온전히 받아들이고(COOL (Your rainbow)), 자신의 선택을 믿는다. 이제 NMIXX의 운명은 소녀들의 손 안에 있다.
+                                            <br>
+                                            <br>자 이제 묻는다, 당신을 위협하는 저 거대한 그림자는 외부에서 온 것일까? 아니면 당신의 내부에서 온 것일까?
+                                            <br>
+                                            <br>New Frontier 시리즈에서 NMIXX는 어려울 것이라고 예상된 모험에 기꺼이 자신을 내던지고, 험난한 여정 속에서 자신만의 룰을 만들어냈다. 앞으로도 존재의 의미들을 찾고 수많은 선택을 할 소녀들. 이제 소녀들은 당신 역시 스스로 두려움에 직면할 수 있도록, 당신에게 손을 내밀 것이다. 무지개 너머의 세계로 함께 가기 위해.
+                                        </div>
+
+                                        <div class="mb_info_btn">
+                                            <ul>
+                                                <li><a href="https://nmixx.jype.com/Default/DiscographyView?AamSeq=180&AmSeq=0&PgIndex=0" target="_blank" class="more_ico">more</a></li>
+                                                <li><a href="https://www.youtube.com/watch?v=p1bjnyDqI9k" target="_blank" class="go_ico">youtube link</a></li>
+                                                <li><a href="javascript:;" class="up_ico">close</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="c_line"></span>
+                            </div>
+                            <div class="main_content">
+
+
+                                <a href="javascript:readBannerCount('30', 'https://nmixx.jype.com')">
+
+
+
+                                    <!-- img -->
+
+                                    <div class="video">
+                                        <div class="video_frame" data-id="p1bjnyDqI9k"></div>
+                                        <!-- <div class="video_frame" data-id=""></div> -->
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide main_video_wrap">
+                            <div class="main_banner_cont">
+                                <p>TWICE</p>
+                                <strong>Talk that Talk</strong>
+                                <span class="mb_line"></span>
+                            </div>
+
+                            <div class="mb_info_wrap tp1">
+                                <div class="mb_info_cont">
+                                    <div class="mb_info_tit">
+                                        <p>TWICE</p>
+                                        <strong>BETWEEN 1&amp;2</strong>
+                                    </div>
+                                    <div class="mb_info_img">
+                                        <img src="https://lv2-cdn.azureedge.net/twice/3c3a44867b7a4acba8838458c168e448-BETWEEN%201&amp;2.jpg" alt="main banner info img">
+                                    </div>
+                                    <div class="mb_info_item">
+                                        <div class="album_info">
+                                            <p>Release Date</p>
+                                            <span>2022-08-26</span>
+                                            <span class="date_line"></span>
+                                        </div>
+
+                                        <div class="mb_info_txt">
+                                            '글로벌 정상 걸그룹' 트와이스, 8월 26일 새 미니 앨범 'BETWEEN 1&2' 및 타이틀곡 'Talk that Talk' 전 세계 동시 발매!
+                                            <br>
+                                            <br>- 모두가 기다려온 2022년 첫 컴백! 신곡 'Talk that Talk', 트와이스가 원스에게 듣고 싶은 딱 한마디! "L-O-V-E"
+                                            <br>- 오직 트와이스와 원스만 해석할 수 있는 암호들! 앨범 전반에 걸쳐 굳건한 유대와 커다란 사랑 표현!
+                                            <br>- 지효, 다현, 채영 수록곡 단독 작사 & 이우민, danke, 런던노이즈, 멜라니 폰타나 등 유수 작곡진 의기투합
+                                        </div>
+
+                                        <div class="mb_info_btn">
+                                            <ul>
+                                                <li><a href="https://twice.jype.com/Default/DiscographyView?AamSeq=176&AmSeq=0&PgIndex=0" target="_blank" class="more_ico">more</a></li>
+                                                <li><a href="https://www.youtube.com/watch?v=k6jqx9kZgPM" target="_blank" class="go_ico">youtube link</a></li>
+                                                <li><a href="javascript:;" class="up_ico">close</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="c_line"></span>
+                            </div>
+                            <div class="main_content">
+
+
+                                <a href="javascript:readBannerCount('29', 'https://twice.jype.com')">
+
+
+
+                                    <!-- img -->
+
+                                    <div class="video">
+                                        <div class="video_frame" data-id="k6jqx9kZgPM"></div>
+                                        <!-- <div class="video_frame" data-id=""></div> -->
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide main_video_wrap">
+                            <div class="main_banner_cont">
+                                <p>Xdinary Heroes </p>
+                                <strong>Hello, world!</strong>
+                                <span class="mb_line"></span>
+                            </div>
+
+                            <div class="mb_info_wrap tp1">
+                                <div class="mb_info_cont">
+                                    <div class="mb_info_tit">
+                                        <p>Xdinary Heroes </p>
+                                        <strong>Hello, world!</strong>
+                                    </div>
+                                    <div class="mb_info_img">
+                                        <img src="https://lv2-cdn.azureedge.net/xdinaryheroes/1908b74c8ec849a98d7e2a3456af90d2-1a24096865664769af4bc5c044c80e45-220527_XH_MN1_%EC%98%A8%EB%9D%BC%EC%9D%B8%EC%BB%A4%EB%B2%84.jpg" alt="main banner info img">
+                                    </div>
+                                    <div class="mb_info_item">
+                                        <div class="album_info">
+                                            <p>Release Date</p>
+                                            <span>2022-07-20</span>
+                                            <span class="date_line"></span>
+                                        </div>
+
+                                        <div class="mb_info_txt">
+                                            JYP 보이밴드 엑스디너리 히어로즈, 2022년 7월 20일 데뷔 첫 미니 앨범 'Hello, world!' 및 타이틀곡 'Test Me' 발매!
+                                            <br>
+                                            <br>- “히어로들의 여정, 그 시작점" 미지의 공간 '♭form'(플랫폼)에 모여 새로운 세상을 향해 건네는 인사 'Hello, world!'
+                                            <br>- 신곡 'Test Me', 빠른 비트 위 개성 강한 음색으로 노래하는 직설적 메시지! 국내외 리스너 취향 깨우는 짜릿한 밴드 사운드!
+                                            <br>- XH 멤버 6인 전원, 타이틀곡 및 미니 1집 작사-작곡 참여! 음악적 잠재력과 진정성 담아 'Z세대 대표 밴드' 매력 선사!
+                                        </div>
+
+                                        <div class="mb_info_btn">
+                                            <ul>
+                                                <li><a href="https://xdinaryheroes.jype.com/Default/DiscographyView?AamSeq=164&AmSeq=0&PgIndex=0" target="_blank" class="more_ico">more</a></li>
+                                                <li><a href="https://www.youtube.com/watch?v=CL6wr7jozs8" target="_blank" class="go_ico">youtube link</a></li>
+                                                <li><a href="javascript:;" class="up_ico">close</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="c_line"></span>
+                            </div>
+                            <div class="main_content">
+
+
+                                <a href="javascript:readBannerCount('28', 'https://xdinaryheroes.jype.com')">
+
+
+
+                                    <!-- img -->
+
+                                    <div class="video">
+                                        <div class="video_frame" data-id="CL6wr7jozs8"></div>
+                                        <!-- <div class="video_frame" data-id=""></div> -->
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev">
+                        <span>
+                PREV
+                <svg data-name="prev_ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.65 41.3">
+                    <path style="fill:#ffffffa1" d="M20.65 0v41.3L0 20.65 20.65 0z" data-name="arrow left" />
+                </svg>
+            </span>
+                    </div>
+                    <div class="swiper-button-next">
+                        <span>
+                NEXT
+                <svg data-name="next_ico" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20.65 41.3">
+                    <path style="fill:#ffffffa1" d="M20.65 0v41.3L0 20.65 20.65 0z" data-name="arrow right" />
+                </svg>
+            </span>
+                    </div>
+                </div>
+            </div>
+            <!-- //Content -->
+            <!-- footer -->
+            <div id="footer">
+                <div class="main_footer_type">
+                    <div class="main_notice_wrap">
+                        <div class="main_notice">
+                            <a href="/ko/Board/Detail?jbst_sq=760&amp;gubun=notice">
+                    <strong>NOTICE</strong>
+                    <span>2022.10.21</span>
+                    <p>개인정보처리방침 변경 사전 안내 (2.0)</p>
+                </a>
+                        </div>
+                    </div>
+                    <div class="footer_cont">
+
+                        <a href="/ko/JYP/Personal" class="private_btn">개인정보처리방침</a>
+                        <div class="fam_menu">
+                            <a href="javascript:;" class="fam_type">
+                    FAMILY
+                    <i class="fam_ico"></i>
+                </a>
+                            <ul>
+                                <li><a href="https://audition.jype.com" target="_blank">JYP AUDITION</a></li>
+                                <li><a href="https://recruit.jype.com" target="_blank">JYP RECRUIT</a></li>
+                                <li><a href="https://fans.jype.com" target="_blank">JYP FAN’S</a></li>
+                                <li>
+                                    <a href="https://edm-wish.jype.com" target="_blank">
+                            JYP EDM
+                        </a>
+                                </li>
+                                <li>
+                                    <a href="https://jyppub.com" target="_blank">
+                            JYP PUBLISHING
+                        </a>
+                                </li>
+                                <li>
+                                    <a href="https://thejypshop.com" target="_blank">
+                            JYP SHOP
+                        </a>
+                                </li>
+                                <!-- 20221006 JYP THREE SIXTY list add -->
+                                <li><a href="https://jype360.com/" target="_blank">JYP THREE SIXTY</a></li>
+                                <!-- //20221006 JYP THREE SIXTY list add -->
+                            </ul>
+                            </ul>
+                        </div>
+                        <p>&copy; JYP ENTERTAINMENT Corp.</p>
+                    </div>
+                </div>
+                <div class="sub_footer_type">
+
+
+                    <!-- footer -->
+                    <div id="footer">
+                        <div class="main_footer_type">
+                            <div class="footer_cont">
+                                <a href="/ko/JYP/Personal" class="private_btn">개인정보처리방침</a>
+                                <div class="fam_menu">
+                                    <a href="javascript:;" class="fam_type">
+                    FAMILY
+                    <i class="fam_ico"></i>
+                </a>
+                                    <ul>
+                                        <li><a href="https://audition.jype.com" target="_blank">JYP AUDITION</a></li>
+                                        <li><a href="https://recruit.jype.com" target="_blank">JYP RECRUIT</a></li>
+                                        <li><a href="https://fans.jype.com" target="_blank">JYP FAN’S</a></li>
+                                        <li>
+                                            <a href="https://edm-wish.jype.com" target="_blank">
+                            JYP EDM
+                        </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://jyppub.com" target="_blank">
+                            JYP PUBLISHING
+                        </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://thejypshop.com" target="_blank">
+                            JYP SHOP
+                        </a>
+                                        </li>
+                                        <!-- 20221006 JYP THREE SIXTY list add -->
+                                        <li><a href="https://jype360.com/" target="_blank">JYP THREE SIXTY</a></li>
+                                        <!-- //20221006 JYP THREE SIXTY list add -->
+                                    </ul>
+                                </div>
+                                <p>&copy; JYP ENTERTAINMENT Corp.</p>
+                            </div>
+                        </div>
+                        <div class="sub_footer_type">
+                            <div class="footer_cont">
+                                <a href="/ko/JYP/Personal" class="private_btn">개인정보처리방침</a>
+                            </div>
+                            <p>&copy; JYP ENTERTAINMENT Corp.</p>
+                        </div>
+                    </div>
+                    <!-- //footer -->
+                    <!-- top btn -->
+                    <a href="javascript:;" class="top_btn"></a>
+                    <!-- //top btn -->
+                    <!-- header menu -->
+                </div>
+            </div>
+            <!-- //footer -->
+            <!-- header menu -->
+
+
+
+            <script>
+                $(function() {
+                    JSLIB.edmVideoList();
+                    $(window).scroll(function() {
+                        JSLIB.edmTopImg();
+                    });
+                });
+
+
+                function goPageLang(region) {
+                    var url = '/' + region + '';
+
+                    location.href = url;
+                }
+            </script>
+            <div id="jypMenu">
+                <div class="menu_header">
+                    <div class="lang_type_list">
+                        <ul>
+
+                            <li><a href="javascript:goPageLang('ko')" class="active">KO</a></li>
+                            <li><a href="javascript:goPageLang('en')" class="">EN</a></li>
+                            <li><a href="javascript:goPageLang('zh')" class="">CH</a></li>
+                            <li><a href="javascript:goPageLang('ja')" class="">JP</a></li>
+                            <li><a href="javascript:goPageLang('es')" class="">ES</a></li>
+
+                        </ul>
+                    </div>
+                    <a href="javascript:;" class="menu_ico">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+                </div>
+                <div class="menu_wrap">
+                    <div class="menu_cont">
+                        <div class="menu_tit_wrap">
+                            <strong class="menu_tit"><a href="/ko/JYP">JYP</a></strong>
+                        </div>
+                        <div class="menu_item">
+                            <ul>
+                                <li><a href="/ko/JYP">ABOUT JYP</a></li>
+                                <li><a href="/ko/JYP/History">HISTORY</a></li>
+                                <li><a href="/ko/Board?gubun=notice">NOTICE</a></li>
+                                <li><a href="/ko/JYP/Contact">CONTACT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu_cont">
+                        <div class="menu_tit_wrap">
+                            <strong class="menu_tit"><a href="/ko/Artist">ARTIST</a></strong>
+                        </div>
+                        <div class="menu_item">
+                            <ul>
+                                <li><a href="/ko/Artist">ARTIST</a></li>
+                                <li><a href="/ko/Artist/Album">ALBUM</a></li>
+                                <li><a href="/ko/Artist/Video">VIDEO</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu_cont">
+                        <div class="menu_tit_wrap">
+                            <strong class="menu_tit"><a href="/ko/Sustainablity/ESG">SUSTAINABILITY</a></strong>
+                        </div>
+                        <div class="menu_item">
+                            <ul>
+                                <li><a href="/ko/Sustainablity/ESG" class="">ESG</a></li>
+                                <li><a href="/ko/Sustainablity/SocialContribution">사회공헌</a></li>
+                                <li><a href="/ko/Sustainablity/Ethical">윤리경영</a></li>
+                                <li><a href="/ko/Board?gubun=csrnotice" class="">NOTICE</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu_cont tp2">
+                        <div class="menu_tit_wrap">
+                            <strong class="menu_tit"><a href="/ko/IR/Stock">IR</a></strong>
+                        </div>
+                        <div class="menu_item">
+                            <ul>
+                                <li><a href="/ko/IR/Stock">STOCK INFO.</a></li>
+                                <li><a href="/ko/IR/Financial">FINANCIAL INFO.</a></li>
+                                <li><a href="/ko/IR/Disclosure">PUBLIC DISCLOSURE INFO.</a></li>
+                                <li><a href="/ko/Board?gubun=irdata">DATA</a></li>
+                                <li><a href="/ko/Board?gubun=irnews">NEWS</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="menu_cont tp1">
+                        <strong class="menu_tit"><a href="https://audition.jype.com" target="_blank">AUDITION</a></strong>
+                        <span class="menu_line"></span>
+                        <strong class="menu_tit"><a href="https://recruit.jype.com" target="_blank">RECRUIT</a></strong>
+                    </div>
+                </div>
+                <div class="menu_footer">
+                    <div class="sns_type_list">
+                        <ul>
+                            <li><a href="https://www.youtube.com/jypentertainment" class="sns_ico tp1" target="_blank">Youtube</a></li>
+                            <li><a href="https://www.instagram.com/jypentertainment/" class="sns_ico tp2" target="_blank">Instagram</a></li>
+                            <li><a href="https://twitter.com/jypnation" class="sns_ico tp3" target="_blank">Twitter</a></li>
+                            <li><a href="https://www.facebook.com/jypnation" class="sns_ico tp4" target="_blank">Facebook</a></li>
+                        </ul>
+                    </div>
+                    <div class="fam_list_wrap">
+                        <a href="javascript:;" class="fam_type">
+                FAMILY
+                <i class="fam_ico"></i>
+            </a>
+                        <ul>
+                            <li><a href="https://audition.jype.com" target="_blank">JYP AUDITION</a></li>
+                            <li><a href="https://recruit.jype.com" target="_blank">JYP RECRUIT</a></li>
+                            <li><a href="https://fans.jype.com" target="_blank">JYP FAN’S</a></li>
+                            <li>
+                                <a href="https://edm-wish.jype.com" target="_blank">
+                        JYP EDM
+                    </a>
+                            </li>
+                            <li>
+                                <a href="https://jyppub.com" target="_blank">
+                        JYP PUBLISHING
+                    </a>
+                            </li>
+                            <li>
+                                <a href="https://thejypshop.com" target="_blank">
+                        JYP SHOP
+                    </a>
+                            </li>
+                            <!-- 20221006 JYP THREE SIXTY list add -->
+                            <li><a href="https://jype360.com/" target="_blank">JYP THREE SIXTY</a></li>
+                            <!-- //20221006 JYP THREE SIXTY list add -->
+                        </ul>
+                    </div>
+                    <div class="m_footer_cont">
+
+                        <a href="/ko/JYP/Personal" class="private_btn">개인정보처리방침</a>
+                        <p>&copy; JYP ENTERTAINMENT Corp.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- //header menu -->
+
+        </div>
+    </div>
+    <!--//wrap -->
+</body>
+
+</html>

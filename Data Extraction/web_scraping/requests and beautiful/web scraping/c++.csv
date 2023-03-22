@@ -1,0 +1,47 @@
+,title,concept,description,link,date,username
+0,Python throwing AttributeError but attribute is set,pythonpython-3.x,"I'm giving pydantic a chance and I'm also trying a more test-driven approach. I have a class and a factory method to create new objects (or, I think it is one). Creating objects by simply calling the ...",['https://stackoverflow.com/questions/74898921/python-throwing-attributeerror-but-attribute-is-set'],2022-12-23 11:03:55Z,Daniel
+1,Problems importing and normalizing a json file with pandas,pythonjsonpandasimportnormalize,"I'm trying to import a json file using pandas. Then I would normalize and analyze it.
+Following part of the content of the file json
+{
+  ""Title"": ""How to get a new badge?"",
+  ""...",['https://stackoverflow.com/questions/74898890/problems-importing-and-normalizing-a-json-file-with-pandas'],2022-12-23 11:01:03Z,eugen92
+2,Pygame draws spirits from all levels onto level 1,pythonpygame,"I have two pygame levels:
+# Level 1
+world_data0 =[
+
+[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0],
+[0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,4,0,0],
+[0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0],
+[0,2,0,0,0,0,0,0,0,...",['https://stackoverflow.com/questions/74898883/pygame-draws-spirits-from-all-levels-onto-level-1'],2022-12-23 11:00:11Z,M M
+3,Iterating through columns and subtracting with the Last Column in pd.dataframe,pythonpython-3.xpandasdataframenumpy,"I am a python newbie and currently sitting on the evaluation of my simulations. I have read the results of the tab files into a pandas dataframe.
+My index is the frequency. The remaining columns ...",['https://stackoverflow.com/questions/74898861/iterating-through-columns-and-subtracting-with-the-last-column-in-pd-dataframe'],2022-12-23 10:57:50Z,knoppers-agent
+4,Error deploying a function from vscode cloud run extension,pythonvisual-studio-codegoogle-cloud-platform,I am new to cloud computing and I'm trying to use google cloud to run some python codes. I use the vscode extension Cloud Run to deploy one function and run it on the cloud but I am getting the ...,['https://stackoverflow.com/questions/74898829/error-deploying-a-function-from-vscode-cloud-run-extension'],2022-12-23 10:53:53Z,Luis
+5,"Warning: MariaDB version ['8.0', '31'] is less than 10.6 which is not supported by Frappe",pythonmariadbfrappe,"I am trying to create a new site bench new-site library.test
+Warning: MariaDB version ['8.0', '31'] is less than 10.6 which is not supported by Frappe
+Installing frappe...
+Updating DocTypes for frappe ...",['https://stackoverflow.com/questions/74898806/warning-mariadb-version-8-0-31-is-less-than-10-6-which-is-not-supported'],2022-12-23 10:51:32Z,ketan pradhan
+6,Add severity in JIRA json dump api,pythondjangojira-rest-api,"I'm creating a JIRA ticket from the python api, i'm able to create the ticket with the same detials i'm providing on the dump except the severity.
+                payload = json.dumps(
+                ...",['https://stackoverflow.com/questions/74898796/add-severity-in-jira-json-dump-api'],2022-12-23 10:50:48Z,code_wizard3199
+7,ModuleNotFoundError: No module named '_tkinter',pythontkinterherokustreamlitfiledialog,"I created a website using streamlit and it works properly on local host, but after deploying it on heroku there's an error.enter image description here
+your textAdding:
+your texttk==0.1.0
+your ...",['https://stackoverflow.com/questions/74898778/modulenotfounderror-no-module-named-tkinter'],2022-12-23 10:48:35Z,Patryk Nowak
+8,pandas: plot .value_counts() of same column from two different dataframes,pythonpandasmatplotlib,"I have two dataframes with same columns (different values, important for me not to combine the two).
+I would like to make a bar plot of the .value_counts() of the same column for these dataframes (e.g....",['https://stackoverflow.com/questions/74898775/pandas-plot-value-counts-of-same-column-from-two-different-dataframes'],2022-12-23 10:48:14Z,ArieAI
+9,Django: how to write a conditional statement to check if a post status was changes from live to cancel in django?,pythondjango,i want to write a condition that would show a warning message when a user try to change the status of a an object to cancel that already have a participant in the object. The conditional statement ...,['https://stackoverflow.com/questions/74898759/django-how-to-write-a-conditional-statement-to-check-if-a-post-status-was-chang'],2022-12-23 10:46:26Z,Destiny Franks
+10,how to shift names of pandas list on python,pythonpandascsv,"So what i tried to is to import a csv file using pandas but i did not get exactly what i want here is the code :
+cords = [""x1"" , ""y1"" , .... , ""x68"" , ""y68"" ]
+...",['https://stackoverflow.com/questions/74898752/how-to-shift-names-of-pandas-list-on-python'],2022-12-23 10:45:06Z,Bendaoud Simou
+11,Django session variables not saving when back button clicked,pythondjangosessionsession-variablesdjango-sessions,"On my page i am trying to implement a recently viewed section on my home page.
+The problem is when I append a new item to request.session[""recently-viewed""], the item i just viewed gets ...",['https://stackoverflow.com/questions/74898743/django-session-variables-not-saving-when-back-button-clicked'],2022-12-23 10:43:53Z,logan_9997
+12,"Swagger Python async client, handling exceptions",pythonrestswaggercodegen,I have Python REST client generated by Swagger codegen. How to send async requests and handle exceptions in non-blocking way? I came up to something like this but it does not differ from synchronous ...,['https://stackoverflow.com/questions/74898741/swagger-python-async-client-handling-exceptions'],2022-12-23 10:43:45Z,user3848246
+13,Naming dataframe passing it as argument in a function,pythonpython-3.xpandaslistfunction,"I want to know how I can build a function where I can pass the name of the dataframe that I will create as argument.
+Here I have an example:
+list1 = [1,2,3]
+list2 = [4,5,6]
+
+def say_hi(list1, list2):
+ ...",['https://stackoverflow.com/questions/74898722/naming-dataframe-passing-it-as-argument-in-a-function'],2022-12-23 10:41:53Z,D EA
+14,Error in cv2.COLOR_BGR2GRAY in NIFTI images,pythonopencvgrayscalenifti,"I have a 3D image in .nii (NIFTI) format. I want to run the command cv2.equalizeHist on it. My code is:
+Img1 = nib.load (""D:/My _Data/ Img.nii"")  # Img is a 3D image (253, 253, 63) in NIFTI ....",['https://stackoverflow.com/questions/74898720/error-in-cv2-color-bgr2gray-in-nifti-images'],2022-12-23 10:41:37Z,tahereh zare
