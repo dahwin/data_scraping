@@ -48,7 +48,7 @@ import aiohttp
 
 async def check_proxy(session, proxy):
     try:
-        async with session.get('https://www.flipkart.com/search?q=watch&sid=r18%2Cf13&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_1_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_1_na_na_na&as-pos=1&as-type=HISTORY&suggestionId=watch%7CWrist+Watches&requestId=d64659cc-2125-411f-bd7a-2d09b895305b', proxy=f"http://{proxy}") as response:
+        async with session.get('https://lottiefiles.com/animations/animations/business-people-shaking-hands-c6S2KwlSjQ', proxy=f"http://{proxy}") as response:
             if response.status == 200:
                 return proxy
     except:
@@ -58,7 +58,7 @@ async def check_proxy(session, proxy):
 async def main():
     # List of proxies to test
     proxies = []
-    with open('http.csv', 'r') as f:
+    with open('proxy.csv', 'r') as f:
         reader = csv.reader(f)
         for row in reader:
             proxies.append(row[0])
